@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:talking_app/core/widgets/custom_button.dart';
 import 'package:talking_app/core/widgets/custom_text_field.dart';
-import 'package:talking_app/features/auth/bloc/login_bloc.dart';
-import 'package:talking_app/features/auth/bloc/login_event.dart';
-import 'package:talking_app/features/auth/bloc/login_state.dart';
+import 'package:talking_app/features/auth/bloc/login/login_bloc.dart';
+import 'package:talking_app/features/auth/bloc/login/login_event.dart';
+import 'package:talking_app/features/auth/bloc/login/login_state.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});

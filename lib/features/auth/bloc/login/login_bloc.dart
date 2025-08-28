@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:talking_app/features/auth/bloc/login_event.dart';
-import 'package:talking_app/features/auth/bloc/login_state.dart';
+import 'package:talking_app/features/auth/bloc/login/login_event.dart';
+import 'package:talking_app/features/auth/bloc/login/login_state.dart';
 import 'package:talking_app/features/auth/model/login_model.dart';
 import 'package:talking_app/features/auth/repository/auth_repository.dart';
 
